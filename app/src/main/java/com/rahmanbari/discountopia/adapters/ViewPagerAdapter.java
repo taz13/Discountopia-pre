@@ -37,13 +37,13 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
         if(position == 0)            // As we are having 4 tabs if the position is now 0 it must be 1 so we are returning second tab
         {
-            DepartmentsFragment departmentsTab = new DepartmentsFragment();
-            return departmentsTab;
+            FeaturedDealsFragment featuredDealsTab = new FeaturedDealsFragment();
+            return featuredDealsTab;
         }
         else if(position == 1) // if the position is 0 we are returning the First tab
         {
-            FeaturedDealsFragment featuredDealsTab = new FeaturedDealsFragment();
-            return featuredDealsTab;
+            DepartmentsFragment departmentsTab = new DepartmentsFragment();
+            return departmentsTab;
         }
         else if(position == 2)            // As we are having 4 tabs if the position is now 0 it must be 2 so we are returning third tab
         {
